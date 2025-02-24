@@ -1,14 +1,12 @@
 package proxy
 
-
-
 type Nginx struct {
 	application *Application
 	manuelOpen  bool
 	//	rateLimiter map[string]int
 }
 
-func NginxServer() *Nginx {
+func RepoProxyServer() *Nginx {
 	return &Nginx{
 		application: &Application{},
 		manuelOpen:  false,
