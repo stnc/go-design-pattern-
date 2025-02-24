@@ -16,7 +16,6 @@ func RepoProxyServer() *Repo {
 
 func (n *Repo) RepoRequest() string {
 	cacheType := n.check()
-
 	return n.application.response(cacheType)
 }
 

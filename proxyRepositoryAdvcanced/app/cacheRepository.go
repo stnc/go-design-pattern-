@@ -1,5 +1,5 @@
 package proxy
 
-func (a *Application) cacheRepo() string {
+func (c Cache) GetByUsername() string {
 	return "cache"
 }

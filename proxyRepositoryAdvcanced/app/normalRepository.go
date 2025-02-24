@@ -1,6 +1,5 @@
 package proxy
 
-
-func (a *Application) normalRepo() string {
-	return "Normal  Data"
+func (c Standart) GetByUsername() string {
+	return "normal"
 }
