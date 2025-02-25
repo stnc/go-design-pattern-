@@ -7,7 +7,7 @@ import (
 
 func main() {
 
-	repoProxyServer := pac.RepoProxyServer()
+	repoProxyServer := pac.RepoProxy()
 
 	fmt.Println(repoProxyServer.RepoRequest())
 

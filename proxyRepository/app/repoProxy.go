@@ -6,7 +6,7 @@ type Repo struct {
 	//	rateLimiter map[string]int
 }
 
-func RepoProxyServer() *Repo {
+func RepoProxy () *Repo {
 	return &Repo{
 		application: &Application{},
 		manuelOpen:  false,
