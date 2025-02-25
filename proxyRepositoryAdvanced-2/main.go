@@ -11,5 +11,8 @@ func main() {
 	repoProxyServer := pac.RepoProxy()
 
 	fmt.Println(repoProxyServer.RepoRequest())
+
+	/////
 	c.TesGetByUsername()
+	pac.TheEnd()
 }
