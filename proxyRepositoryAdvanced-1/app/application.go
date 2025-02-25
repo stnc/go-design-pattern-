@@ -1,14 +1,13 @@
-package proxy
+package dll
 
-type Cache struct {
-}
-
-type Standart struct {
-}
+import (
+	cach "proxy/app/cacheRepo"
+	repo "proxy/app/standartRepo"
+)
 
 type Application struct {
-	Cache Cache
-	Standart Standart
+	Cache    cach.Cache
+	Standart repo.Standart
 }
 
 func (a *Application) response(cacheType bool) string {

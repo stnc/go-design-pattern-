@@ -1,4 +1,4 @@
-package proxy
+package dll
 
 type Repo struct {
 	application *Application
