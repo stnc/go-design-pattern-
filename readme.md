@@ -1,3 +1,8 @@
+
+https://medium.com/@josueparra2892/proxy-pattern-in-go-1b5e752b05d9
+
+https://medium.com/search?q=proxy+pattern
+
 Proxy 
 
 https://www.tutorialspoint.com/design_pattern/proxy_pattern.htm
